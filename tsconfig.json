@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+	  "target": "es5", // want to compile to es5 for browser support
+	  "module": "commonjs", // use commonJS modules
+	  "declaration": true, // true when building packages, typescript will export type definitions
+	  "outDir": "./lib", // where compiled js lives
+	  "strict": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "**/__tests__/*"]
+  }
